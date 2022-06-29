@@ -1,0 +1,6 @@
+# Ignore the actually used .env file.
+.env
+
+# Ignore the database and wordpress data.
+db_data
+wordpress_data
