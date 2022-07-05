@@ -1,4 +1,4 @@
-# Ignore the actually used .env file.
+# Ignore the Environment (.env) file, that contains passwords and connection details.
 .env
 
 # Ignore the database and wordpress data.
