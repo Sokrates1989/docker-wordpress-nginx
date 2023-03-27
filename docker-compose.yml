@@ -10,7 +10,7 @@ networks:
          gateway: 10.5.0.1
     
 services:
-  telegram_homepage_db:
+  XXX_CHANGEME_XXX_homepage_db:
     image: mysql:5.7
     volumes:
       - ./db_data:/var/lib/mysql
@@ -29,9 +29,9 @@ services:
       MYSQL_USER: ${WORDPRESS_DB_MYSQL_USER}
       MYSQL_PASSWORD: ${WORDPRESS_DB_MYSQL_PASSWORD}
     
-  telegram_homepage:
+  XXX_CHANGEME_XXX_homepage:
     depends_on:
-      - telegram_homepage_db
+      - XXX_CHANGEME_XXX_homepage_db
     image: wordpress:latest
     volumes:
       - ./wordpress_data:/var/www/html
