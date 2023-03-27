@@ -6,6 +6,8 @@ clone this repo directly to your tools directory
 
 rename .env.template to .env and change variables within .env
 
+change docker-compose.yml service names marked with "XXX_CHANGEME_XXX" to uniquely identify service (e.g.: for a website about birds you might change it to "bird")
+
 ```
 $ docker compose up -d
 ```
